@@ -10,48 +10,51 @@
 <body>
 
   <div class="my_social">
-      <a href="https://www.linkedin.com/in/stewart-ilondanga-336b2743/" class="social">
-          <img src="https://i.imgsafe.org/85/857cb1a42e.png" alt="linkedin"></img>
-        </a>
-      <a href="https://stewilondanga.github.io/" class="social">
-          <img src="https://i.imgsafe.org/8d/8d745a5c82.png" alt="github"></img>
-        </a>
-      <a href="https://twitter.com/stew_ilondanga" class="social">
-          <img src="https://i.imgsafe.org/43/431dd07874.png" alt="twitter"></img>
-        </a>
+    <a href="https://www.linkedin.com/in/stewart-ilondanga-336b2743/" class="social">
+      <img src="https://i.imgsafe.org/85/857cb1a42e.png" alt="linkedin"></img>
+    </a>
+    <a href="https://stewilondanga.github.io/" class="social">
+      <img src="https://i.imgsafe.org/8d/8d745a5c82.png" alt="github"></img>
+    </a>
+    <a href="https://twitter.com/stew_ilondanga" class="social">
+      <img src="https://i.imgsafe.org/43/431dd07874.png" alt="twitter"></img>
+    </a>
+  </div>
+
+
+  <main>
+    <header>
+      <h1 class="header--main">wtf?</h1>
+      <h2 class="header--sub">(when to float?)</h2>
+    </header>
+    <p class="text">It wasn't very long ago when <span class="code">float:&nbsp;left</span> was the basis for creating a responsive page layout. Thanks to newer options like flexbox and grid, we no longer need to use floats in this fashion. But
+      there's still a place for them in our toolbox!</p>
+    <p class="text">Floating an element takes it out of normal flow and allows other elements to wrap around it. It's a great choice for an image surrounded by text:</p>
+    <div class="example">
+      <div class="image--inline">I'm an image floating to the left!</div>
+      <p class="text">Deserunt molestiae sit assumenda deserunt dolorem incidunt debitis eum. Eum ipsam beatae et velit voluptatem facere nihil molestiae. Eum corrupti quam esse est qui molestiae. Et eaque fuga at vel nobis aut asperiores
+        voluptatum.</p>
     </div>
-
-
-    <main>
-      <header>
-        <h1 class="header--main">wtf?</h1>
-        <h2 class="header--sub">(when to float?)</h2>
-      </header>
-      <p class="text">It wasn't very long ago when <span class="code">float:&nbsp;left</span> was the basis for creating a responsive page layout. Thanks to newer options like flexbox and grid, we no longer need to use floats in this fashion. But there's still a place for them in our toolbox!</p>
-      <p class="text">Floating an element takes it out of normal flow and allows other elements to wrap around it. It's a great choice for an image surrounded by text:</p>
-      <div class="example">
-        <div class="image--inline">I'm an image floating to the left!</div>
-        <p class="text">Deserunt molestiae sit assumenda deserunt dolorem incidunt debitis eum. Eum ipsam beatae et velit voluptatem facere nihil molestiae. Eum corrupti quam esse est qui molestiae. Et eaque fuga at vel nobis aut asperiores voluptatum.</p>
-      </div>
-      <p class="text">It's also handy for quotes:</p>
-      <div class="example">
-        <div class="quote--inline">I'm a quote floating to the right!</div>
-        <p class="text">Deserunt molestiae sit assumenda deserunt dolorem incidunt debitis eum. Eum ipsam beatae et velit voluptatem facere nihil molestiae. Eum corrupti quam esse est qui molestiae.</p>
-      </div>
-      <div class="text">If you're looking to create a responsive multi-column page layout, consider flexbox or grid. If you're looking to spice up blocks of text with images or quotes, consider floats!</div>
-    </main>
+    <p class="text">It's also handy for quotes:</p>
+    <div class="example">
+      <div class="quote--inline">I'm a quote floating to the right!</div>
+      <p class="text">Deserunt molestiae sit assumenda deserunt dolorem incidunt debitis eum. Eum ipsam beatae et velit voluptatem facere nihil molestiae. Eum corrupti quam esse est qui molestiae.</p>
+    </div>
+    <div class="text">If you're looking to create a responsive multi-column page layout, consider flexbox or grid. If you're looking to spice up blocks of text with images or quotes, consider floats!</div>
+  </main>
 
   <section id="contact">
     <div class="overlay">
       <div class="containers">
 
         <h1>
-<script>
-with(new Date)c=-new Date(y=getFullYear(),m=getMonth()).getDay(x=new Date(y,++m,0).getDate(b=-1))
-h='<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 '+' '+y+'/'+m+'<tr>'+'SuMoTuWeThFrSa'.replace(/(..)/g,'<th>$1')
-while((b++>5?b=0:b)|c<x)h+=(b?'':'<tr>')+'<td>'+(++c<1|c>x?'-':c);document.write(h+'</table>')
-</script>
-</h1>
+          <script>
+            with(new Date) c = -new Date(y = getFullYear(), m = getMonth()).getDay(x = new Date(y, ++m, 0).getDate(b = -1))
+            h = '<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 ' + ' ' + y + '/' + m + '<tr>' + 'SuMoTuWeThFrSa'.replace(/(..)/g, '<th>$1')
+            while ((b++ > 5 ? b = 0 : b) | c < x) h += (b ? '' : '<tr>') + '<td>' + (++c < 1 | c > x ? '-' : c);
+            document.write(h + '</table>')
+          </script>
+        </h1>
 
       </div>
     </div>
