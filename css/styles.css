@@ -1,4 +1,10 @@
 body {
+  font-family: 'Space Mono', monospace;
+  font-size: 18px;
+  color: #333;
+}
+
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +25,64 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+main {
+  max-width: 30em;
+  margin: 0 auto;
+  padding: 2.618em 1.618em;
+}
+header {
+  margin-bottom: 2.618em;
+}
+.header--main {
+  font-size: 4.236em;
+  font-weight: 700;
+}
+.header--sub {
+  font-size: 1.618em;
+}
+.text {
+  line-height: 1.4em;
+  margin-bottom: 1.618em;
+}
+.code {
+  background-color: #ddd;
+  color: #1e90ff;
+  border-radius: 0.1em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+.example {
+  background-color: #ddd;
+  padding: 1.618em;
+  border-radius: 0.1em;
+  margin-bottom: 1.618em;
+}
+.example .text {
+  margin-bottom: 0;
+}
+.image--inline {
+  float: left;
+  background-color: #ffb1a3;
+  border-left: 0.5em solid #ff6347;
+  width: 20%;
+  padding: 1em;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  border-radius: 0.1em;
+}
+.quote--inline {
+  float: right;
+  background-color: #8fc7ff;
+  border-left: 0.5em solid #1e90ff;
+  width: 33%;
+  padding: 1.618em;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+  border-radius: 0.1em;
 }
 
 .containers {
