@@ -38,11 +38,12 @@ header {
   font-size: 1.618em;
 }
 
-/*.text {
+.text {
   line-height: 1.4em;
   margin-bottom: 1.618em;
 }
-.code {
+
+/*.code {
   background-color: #ddd;
   color: #1e90ff;
   border-radius: 0.1em;
