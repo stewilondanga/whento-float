@@ -62,7 +62,7 @@ header {
   margin-bottom: 0;
 }
 
-/*.image--inline {
+.image--inline {
   float: left;
   background-color: #ffb1a3;
   border-left: 0.5em solid #ff6347;
@@ -73,7 +73,8 @@ header {
   margin-bottom: 0.5em;
   border-radius: 0.1em;
 }
-.quote--inline {
+
+/*.quote--inline {
   float: right;
   background-color: #8fc7ff;
   border-left: 0.5em solid #1e90ff;
