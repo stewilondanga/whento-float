@@ -25,10 +25,11 @@ main {
   padding: 2.618em 1.618em;
 }
 
-/*header {
+header {
   margin-bottom: 2.618em;
 }
-.header--main {
+
+/*.header--main {
   font-size: 4.236em;
   font-weight: 700;
 }
