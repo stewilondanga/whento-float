@@ -43,14 +43,15 @@ header {
   margin-bottom: 1.618em;
 }
 
-/*.code {
+.code {
   background-color: #ddd;
   color: #1e90ff;
   border-radius: 0.1em;
   padding-left: 0.25em;
   padding-right: 0.25em;
 }
-.example {
+
+/*.example {
   background-color: #ddd;
   padding: 1.618em;
   border-radius: 0.1em;
