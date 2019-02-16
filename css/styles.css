@@ -74,7 +74,7 @@ header {
   border-radius: 0.1em;
 }
 
-/*.quote--inline {
+.quote--inline {
   float: right;
   background-color: #8fc7ff;
   border-left: 0.5em solid #1e90ff;
@@ -86,7 +86,7 @@ header {
   border-radius: 0.1em;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
