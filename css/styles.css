@@ -34,10 +34,11 @@ header {
   font-weight: 700;
 }
 
-/*.header--sub {
+.header--sub {
   font-size: 1.618em;
 }
-.text {
+
+/*.text {
   line-height: 1.4em;
   margin-bottom: 1.618em;
 }
