@@ -58,10 +58,11 @@ header {
   margin-bottom: 1.618em;
 }
 
-/*.example .text {
+.example .text {
   margin-bottom: 0;
 }
-.image--inline {
+
+/*.image--inline {
   float: left;
   background-color: #ffb1a3;
   border-left: 0.5em solid #ff6347;
